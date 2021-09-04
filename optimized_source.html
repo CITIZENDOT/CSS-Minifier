@@ -1,0 +1,37 @@
+<div id="a">
+  <div id="b" class="a"></div>
+  <div id="c" class="a"></div>
+  <div id="d" class="a"></div>
+  <div id="e" class="a"></div>
+</div>
+<style>
+  body {
+    background-color: #e3516e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  #a {
+    width: 200px;
+    height: 200px;
+    margin-top: -16px;
+  }
+  .a {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  #b {
+    background-color: #51b5a9;
+    border-radius: 100% 0 0 0;
+  }
+  #c {
+    background-color: #fade8b;
+    border-radius: 0 100% 0 0;
+  }
+  #d {
+    background-color: #f7f3d7;
+    border-radius: 0 0 0 100%;
+  }
+</style>
