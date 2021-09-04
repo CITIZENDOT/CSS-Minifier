@@ -4,6 +4,16 @@
 
 This is targetted towards [CSS Battle](https://cssbattle.dev/). Length of the code is one of the metrics in [CSS Battle](https://cssbattle.dev/). This CSS Minifier tries to reduce the length of code by renaming class names and id names.
 
+## Usage
+
+Have your source code at [source.html](source.html). Run [main.py](main.py) script.
+
+```bash
+python3 main.py # generates optimized_source.html
+```
+
+[optimized_source.html](optimized_source.html) contains Optimized Source :)
+
 ## Why this project exists
 
 [CSS Battle](https://cssbattle.dev/) is a CSS code-golfing game. Participants are given an image, they're ranked based on following metrics.
