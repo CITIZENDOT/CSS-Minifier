@@ -6,6 +6,6 @@ class_patterns = [
 ]
 
 id_patterns = [
-    re.compile(r"(id=\")([\w\s\-]+)(\")"),  # Classes from HTML
-    re.compile(r"(#)([\w\-]+)(,|\s)"),  # Classes from CSS
+    re.compile(r"(id=\")([\w\s\-]+)(\")"),  # Ids from HTML
+    re.compile(r"(#)([\w\-]+)(,|\s)"),  # Ids from CSS
 ]
